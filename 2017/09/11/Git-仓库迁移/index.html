@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="IAMSHENSH">
 <meta property="og:description" content="关于 Git 仓库 迁移的方法">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-20T09:04:09.093Z">
+<meta property="og:updated_time" content="2017-09-23T04:08:54.864Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git 仓库迁移">
 <meta name="twitter:description" content="关于 Git 仓库 迁移的方法">
@@ -436,6 +436,8 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cd project-a.git/</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git remote set-url --push origin ssh://git@****:****/****/project-a.git</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">$ git push --mirror</div><div class="line">&gt; The authenticity of host &apos;[server]:10090 ([172.24.***.***]:10090)&apos; can&apos;t be established.</div><div class="line">&gt; ECDSA key fingerprint is SHA256:nVnsCJaQGoJh0ehUKJ2/v4YQkJIKM2VzadcoUvTyFKc.</div><div class="line">&gt; Are you sure you want to continue connecting (yes/no)? yes</div><div class="line">&gt; Warning: Permanently added &apos;[server]:10090,[172.24.***.***]:10090&apos; (ECDSA) to the list of known hosts.</div><div class="line">&gt; 对象计数中: 7012, 完成.</div><div class="line">&gt; Delta compression using up to 4 threads.</div><div class="line">&gt; 压缩对象中: 100% (3456/3456), 完成.</div><div class="line">&gt; 写入对象中: 100% (7012/7012), 487.89 MiB | 12.49 MiB/s, 完成.</div><div class="line">&gt; Total 7012 (delta 2835), reused 7012 (delta 2835)</div><div class="line">&gt; remote: Resolving deltas: 100% (2835/2835), done.</div><div class="line">&gt; To ssh://cmserver:10090/cartronics/project-a.git</div><div class="line">&gt;  * [new branch]      master -&gt; master</div><div class="line">&gt;  * [new branch]      customer -&gt; customer</div><div class="line">&gt;  * [new branch]      refs/keep-around/6780f93f4b5c07c2f9de9ee9f1af591b9ad1e874 -&gt; refs/keep-around/6780f93f4b5c07c2f9de9ee9f1af591b9ad1e874</div></pre></td></tr></table></figure>
+<hr>
+<p>本站点采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="external">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。</p>
 
       
     </div>
@@ -478,8 +480,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/09/11/Docker-image-导出载入/" rel="prev" title="Docker-Image-导出载入">
-                Docker-Image-导出载入 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/09/11/Git-仓库独立运动/" rel="prev" title="Git 仓库独立运动 - 实验笔记">
+                Git 仓库独立运动 - 实验笔记 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -557,7 +559,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -568,7 +570,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -579,7 +581,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">18</span>
+                <span class="site-state-item-count">21</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
